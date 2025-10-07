@@ -1,0 +1,215 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #181818;
+  color: #E6E7E8;
+}
+
+/* Page title */
+h1 {
+  text-align: center;
+  color: #f52936;
+  margin-bottom: 40px;
+  font-size: 3rem;
+}
+
+/* Post container */
+.post {
+  background-color: #262626;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.post:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 2px #f52936
+}
+
+.post a{
+font-size: 14px;
+background-color: #343434;
+text-decoration: none;
+width: fit-content;
+padding: 7px;
+border: 1px solid rgba(255, 253, 253, 0.104);
+border-radius: 18px;
+color: #E6E7E8;
+}
+.post a:hover{
+  background-color: #f52936;
+}
+
+/* Username styling */
+.user {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Content styling */
+.content {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #E6E7E8;
+}
+
+.new_post{
+  background-color: #262626;
+  border: 1px solid rgba(255, 253, 253, 0.104);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  width: fit-content;
+}
+.new_post:hover{
+  transform: scale(1.02);
+}
+.new_post a{
+  text-decoration: none;
+  color: #E6E7E8;
+}
+.new_post:hover{
+background-color: #f52936;
+}
+
+
+/* Form container */
+.user_form {  
+  background-color: #262626;
+  max-width: 550px;
+  margin: auto;
+  padding: 30px ;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field */
+.name_input {
+  width: 95%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 253, 253, 0.104);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #262626;
+  color: #E6E7E8;
+}
+
+
+/* Textarea field */
+.user_text {
+  width: 95%;
+  height: 120px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 253, 253, 0.104);
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+  background-color: #262626;
+  color: #E6E7E8;
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4894FD;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1f6391;
+}
+
+.display{
+  text-align: center;
+}
+.details{
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 600;  
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+.user_details{
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 253, 253, 0.104);
+  border-radius: 8px;
+  background-color: #262626;
+  color: #E6E7E8;
+  font-size: 1rem;
+  font-weight: 600; 
+}
+
+.edit_form textarea{
+  width: 95%;
+  height: 120px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 253, 253, 0.104);
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+  background-color: #262626;
+  color: #E6E7E8;
+}
+
+.edit_form button{
+  padding: 12px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit_form button:hover {
+  background-color: #1f6391;
+}
+
+.delete_btn button{
+font-size: 14px;
+background:none;
+text-decoration: none;
+width: fit-content;
+padding: 7px;
+border: 1px solid rgba(255, 253, 253, 0.104);
+border-radius: 18px;
+color: #E6E7E8;
+height: 32px;
+cursor: pointer;
+background-color: #343434;
+
+}
+
+.delete_btn button:hover{
+    background-color: #f52936;
+}
+
+.btns{
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.btns a{
+  height: 20px;
+}
